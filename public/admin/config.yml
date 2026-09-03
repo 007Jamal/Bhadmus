@@ -1,0 +1,182 @@
+backend:
+  name: github
+  repo: 007Jamal/Bhadmus
+  branch: main
+  base_url: https://bhadmus-ibrahim-portfolio.vercel.app
+  auth_endpoint: api/auth
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "profile"
+    label: "Profile & Hero"
+    files:
+      - name: "profile"
+        label: "Profile"
+        file: "content/site/profile.json"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Headline Top Word", name: "headlineTop", widget: "string" }
+          - { label: "Headline Bottom Word (accent color)", name: "headlineBottom", widget: "string" }
+          - { label: "Bio", name: "bio", widget: "text" }
+          - { label: "Profile Photo (optional)", name: "photo", widget: "image", required: false, default: "", hint: "Leave empty for no photo. Square images work best." }
+      - name: "stats"
+        label: "Stats Row"
+        file: "content/site/stats.json"
+        fields:
+          - label: "Stats"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Value", name: "value", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+      - name: "focus_areas"
+        label: "Focus Areas"
+        file: "content/site/focus-areas.json"
+        fields:
+          - label: "Areas"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+      - name: "skills"
+        label: "Skills / Stack"
+        file: "content/site/skills.json"
+        fields:
+          - { label: "Languages", name: "languages", widget: "list", default: [] }
+          - { label: "Frontend", name: "frontend", widget: "list", default: [] }
+          - { label: "Backend", name: "backend", widget: "list", default: [] }
+          - { label: "Security Tools", name: "security", widget: "list", default: [] }
+          - { label: "Automation", name: "automation", widget: "list", default: [] }
+
+  - name: "education"
+    label: "Education"
+    folder: "content/education"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    identifier_field: "school"
+    fields:
+      - { label: "School", name: "school", widget: "string" }
+      - { label: "Degree", name: "degree", widget: "string" }
+      - { label: "Grade", name: "grade", widget: "string" }
+      - { label: "Status", name: "status", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+
+  - name: "certifications"
+    label: "Certifications"
+    folder: "content/certifications"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    identifier_field: "name"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Provider", name: "provider", widget: "string" }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["Completed", "In Progress"]
+
+  - name: "experience"
+    label: "Experience"
+    folder: "content/experience"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    identifier_field: "company"
+    fields:
+      - { label: "Company", name: "company", widget: "string" }
+      - { label: "Role / Title", name: "role", widget: "string" }
+      - { label: "Department", name: "dept", widget: "string", required: false, default: "" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Period (display text)", name: "period", widget: "string" }
+      - { label: "Start Date (for sorting)", name: "startDate", widget: "datetime", required: false }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Bullet Points", name: "bullets", widget: "list", default: [] }
+
+  - name: "community"
+    label: "Teaching & Community"
+    folder: "content/community"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    identifier_field: "title"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Organization", name: "org", widget: "string" }
+      - { label: "Period", name: "period", widget: "string" }
+      - { label: "Description", name: "desc", widget: "text" }
+
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    identifier_field: "name"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["Security", "Full Stack", "Backend", "AI"]
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Tech Stack", name: "tech", widget: "list", default: [] }
+      - { label: "Live Link", name: "link", widget: "string", required: false, default: "" }
+      - { label: "GitHub Link", name: "github", widget: "string", required: false, default: "" }
+      - label: "Screenshots"
+        name: "images"
+        widget: "list"
+        required: false
+        default: []
+        field: { label: "Image", name: "image", widget: "image" }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "json"
+    format: "json"
+    identifier_field: "title"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Cover Image", name: "cover", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - name: "social"
+        label: "Contact & Social Links"
+        file: "content/settings/social.json"
+        fields:
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone (with country code)", name: "phone", widget: "string" }
+          - { label: "WhatsApp Link", name: "whatsapp", widget: "string" }
+          - { label: "GitHub", name: "github", widget: "string" }
+          - { label: "LinkedIn", name: "linkedin", widget: "string" }
+          - label: "Formspree Form ID"
+            name: "formspreeId"
+            widget: "string"
+            required: false
+            hint: "Create a free form at formspree.io, then paste just the ID here (the part after /f/ in your form's endpoint) to make the Contact form actually send messages."

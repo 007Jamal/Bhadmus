@@ -1,0 +1,31 @@
+# Bhadmus Ibrahim
+
+> Solutions Engineer and Full Stack Developer based in Lagos, Nigeria. Builds
+> full products end to end and is deepening a cybersecurity specialization
+> through hands on tool training and certification.
+
+## Background
+
+- B.Sc. Computer Science, Lagos State University (LASU), Second Class Upper, 2026
+- Cybersecurity Intern at NPF Microfinance Bank, working with SIEM tooling,
+  network monitoring, and incident response
+- Vice President, AWS Student Builders Group, LASU Chapter
+- Tutors Python and Bash scripting for peers and community members
+
+## Skills
+
+TypeScript, JavaScript, Python, PHP, Bash, React, Node.js, Wireshark, Nmap,
+Kali Linux, Cisco Packet Tracer, VirtualBox, OSINT, Workflow Automation.
+
+## Pages
+
+- / — Home, profile, experience, stack, and contact
+- /#projects — Project portfolio (filterable by Security, Full Stack, Backend, AI)
+- /#blog — Writing
+- /#contact — Contact form
+
+## Contact
+
+Email: Ibrahimbhadmus1234@gmail.com
+GitHub: https://github.com/007Jamal
+LinkedIn: https://www.linkedin.com/in/ibrahim-bhadmus-08a997428

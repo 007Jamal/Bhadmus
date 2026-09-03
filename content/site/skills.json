@@ -1,0 +1,7 @@
+{
+  "languages": ["TypeScript", "JavaScript", "Python", "PHP", "Bash"],
+  "frontend": ["React"],
+  "backend": ["Node.js"],
+  "security": ["Wireshark", "Nmap", "Kali Linux", "Cisco Packet Tracer", "VirtualBox", "OSINT"],
+  "automation": ["Workflow Automation"]
+}

@@ -1,0 +1,57 @@
+.border-glow {
+  position: relative;
+  display: grid;
+  border-radius: var(--border-glow-radius, 20px);
+  padding: 1.5px;
+  isolation: isolate;
+  overflow: hidden;
+  --glow-opacity: 0;
+  --pointer-x: 50%;
+  --pointer-y: 50%;
+}
+
+.border-glow__mesh {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  animation-name: border-glow-spin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.border-glow__cone {
+  display: none;
+}
+
+.border-glow__content {
+  position: relative;
+  z-index: 2;
+  background: var(--border-glow-bg, #0b0b12);
+  border-radius: calc(var(--border-glow-radius, 20px) - 1.5px);
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 calc(var(--glow-radius, 26) * 1px)
+    hsl(var(--glow-h, 260deg) var(--glow-s, 84%) var(--glow-l, 66%) / calc(var(--glow-opacity) * 0.55));
+  transition: box-shadow 0.25s ease;
+}
+
+.border-glow--disabled .border-glow__mesh {
+  display: none;
+}
+
+@keyframes border-glow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .border-glow__mesh {
+    animation: none;
+  }
+}

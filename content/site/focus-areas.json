@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "title": "Full Stack Development", "desc": "React, Node.js, TypeScript, and PHP, from frontend to backend." },
+    { "title": "Cybersecurity Practice", "desc": "Wireshark, Nmap, Kali Linux, Cisco Packet Tracer, OSINT." }
+  ]
+}

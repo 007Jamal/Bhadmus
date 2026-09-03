@@ -1,0 +1,10 @@
+{
+  "name": "Receipt Maker",
+  "tagline": "Clean receipts, three themes, zero hassle.",
+  "category": "Full Stack",
+  "description": "A business receipt generator with Light, Dark, and Ethereal themes. Fill in business and customer details, add line items, and get an automatic subtotal, tax, and total with a clean printable receipt view. Built with React and Vite.",
+  "tech": ["React", "Vite", "JavaScript"],
+  "link": "",
+  "github": "https://github.com/007Jamal/receipt-generator",
+  "images": []
+}

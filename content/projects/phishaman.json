@@ -1,0 +1,10 @@
+{
+  "name": "Phishaman",
+  "tagline": "Spot the phish before it bites.",
+  "category": "Security",
+  "description": "A phishing detection web app built to flag suspicious emails and links before they cause harm. Full case study and live link coming soon.",
+  "tech": ["TypeScript", "React", "Node.js"],
+  "link": "",
+  "github": "",
+  "images": []
+}

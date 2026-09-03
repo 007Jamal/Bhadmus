@@ -1,0 +1,14 @@
+{
+  "company": "NPF Microfinance Bank",
+  "role": "Cybersecurity Intern",
+  "dept": "Cybersecurity Department",
+  "location": "Lagos, Nigeria",
+  "period": "Feb 2025 to May 2026",
+  "startDate": "2025-02-01",
+  "tags": ["SIEM", "Network Monitoring", "Incident Response"],
+  "bullets": [
+    "Monitored network traffic and system logs using SIEM tooling to detect anomalous activity across the bank's infrastructure",
+    "Actively identified and helped contain a live malicious attack on the network in real time, working directly with the Chief Information Security Officer (CISO) to isolate the threat and prevent further compromise",
+    "Supported incident response procedures and contributed to postmortem documentation to strengthen future detection and response capabilities"
+  ]
+}

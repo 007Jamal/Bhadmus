@@ -1,0 +1,10 @@
+{
+  "name": "Grimoire",
+  "tagline": "Your Solo Author Sanctum.",
+  "category": "AI",
+  "description": "A full featured novel writing suite built for solo authors, combining a manuscript editor, series and canon management, and a deep AI assistant in one workspace. The editor handles chapters and scenes, while Canon tracks characters, relationships, powers, worldbuilding, plot arcs, subplots, timelines, and moodboards alongside the manuscript itself. The AI Assistant covers chat based brainstorming, an auto mode engine, a guided mode wizard, consistency reports, a voice trainer, a style importer, and cliffhanger suggestions, backed by a Humanizer and a Reality Check rules engine. A PIN gated Secret Vault protects sensitive material, and finished work exports to DOCX, PDF, and EPUB. Built with a command palette (Cmd+K) for fast navigation across the whole workspace.",
+  "tech": ["React", "Vite", "Tailwind", "Zustand", "TanStack Query", "Node.js", "Express", "MongoDB"],
+  "link": "",
+  "github": "",
+  "images": []
+}
