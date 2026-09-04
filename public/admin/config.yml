@@ -2,7 +2,7 @@ backend:
   name: github
   repo: 007Jamal/Bhadmus
   branch: main
-  base_url: https://bhadmus-ibrahim-portfolio.vercel.app
+base_url: https://bhadmus.vercel.app
   auth_endpoint: api/auth
 
 media_folder: "public/images/uploads"
