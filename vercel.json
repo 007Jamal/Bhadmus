@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/admin/(.*)", "destination": "/admin/$1" },
+    { "source": "/admin/config.yml", "destination": "/admin/config.yml" },
     { "source": "/((?!api/|admin/).*)", "destination": "/index.html" }
   ]
 }
