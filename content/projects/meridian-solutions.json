@@ -2,9 +2,23 @@
   "name": "Meridian Solutions",
   "tagline": "A solutions agency, built from scratch.",
   "category": "Full Stack",
-  "description": "A solutions agency website. Full case study coming soon.",
-  "tech": ["React", "Node.js"],
+  "description": "Meridian Solutions is a custom software and digital agency operating on a middleman/freelancer model. Services include custom software, SaaS, MVPs, ecommerce, websites/WordPress, hosting, and tech consultations. The platform features a marketing website, client portal, and admin system built on Supabase with full CRUD dashboards, Paystack payments, referral commissions, Resend emails, and Cloudflare Turnstile.",
+  "tech": [
+    "React",
+    "Node.jsFrontend: Next.js 16 (App Router)",
+    "TypeScript",
+    "Tailwind CSS Backend: Supabase (PostgreSQL 17",
+    "EU-West) Payments: Paystack Email: Resend (transactional)",
+    "Zoho Suite (business operations) Design: Figma",
+    "Framer Security: Cloudflare Turnstile"
+  ],
   "link": "",
   "github": "",
-  "images": []
+  "images": [
+    "/images/uploads/screenshot-2026-09-05-082616.png",
+    "/images/uploads/screenshot-2026-09-05-082640.png",
+    "/images/uploads/screenshot-2026-09-05-082733.png",
+    "/images/uploads/screenshot-2026-09-05-082958.png",
+    "/images/uploads/screenshot-2026-09-05-083050.png"
+  ]
 }
