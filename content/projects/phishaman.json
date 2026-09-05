@@ -1,12 +1,16 @@
 {
   "name": "Phishaman",
-  "tagline": "Spot the phish before it bites.",
+  "tagline": "Protecting Nigerians from phishing, one URL at a time",
   "category": "Security",
-  "description": "A phishing detection web app built to flag suspicious emails and links before they cause harm. Full case study and live link coming soon.",
+  "description": "Phishaman is a machine learning-powered phishing detection web application built specifically for Nigerian internet users. It detects phishing attempts targeting Nigerian banks, fintechs, government portals, e-commerce platforms, news sites, and social media.\n",
   "tech": [
     "TypeScript",
     "React",
-    "Node.js"
+    "Node.jsBackend: Python 3.13",
+    "Flask 3.0.3 ML: scikit-learn 1.6.1 (RandomForest) Database: SQLite Frontend: HTML5",
+    "CSS3",
+    "Vanilla JavaScript Auth: JWT + bcrypt Reports: ReportLab (PDF)",
+    "Pillow (JPEG)"
   ],
   "link": "",
   "github": "",
