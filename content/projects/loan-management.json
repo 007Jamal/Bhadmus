@@ -3,8 +3,19 @@
   "tagline": "Loans, tracked end to end.",
   "category": "Backend",
   "description": "A full loan management system covering the entire loan lifecycle in one dashboard, from application to disbursement to repayment. The home dashboard surfaces today's payments, active borrowers, active loans, and total receivables at a glance. Loan plans are fully configurable with a custom duration, interest rate, and overdue penalty per plan, and every loan tracks its own reference, repayment schedule, status, and next payment due date. Built with a PHP backend and a role based admin login.",
-  "tech": ["PHP", "MySQL", "JavaScript", "Bootstrap"],
+  "tech": [
+    "PHP",
+    "MySQL",
+    "JavaScript",
+    "Bootstrap"
+  ],
   "link": "",
   "github": "",
-  "images": []
+  "images": [
+    "/images/uploads/screenshot-2026-05-08-140632.png",
+    "/images/uploads/screenshot-2026-05-08-140755.png",
+    "/images/uploads/screenshot-2026-05-08-140830.png",
+    "/images/uploads/screenshot-2026-05-08-140903.png",
+    "/images/uploads/screenshot-2026-05-08-141056.png"
+  ]
 }
