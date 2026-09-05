@@ -3,8 +3,18 @@
   "tagline": "Clean receipts, three themes, zero hassle.",
   "category": "Full Stack",
   "description": "A business receipt generator with Light, Dark, and Ethereal themes. Fill in business and customer details, add line items, and get an automatic subtotal, tax, and total with a clean printable receipt view. Built with React and Vite.",
-  "tech": ["React", "Vite", "JavaScript"],
-  "link": "",
+  "tech": [
+    "React",
+    "Vite",
+    "JavaScript"
+  ],
+  "link": "https://receipt-generator-lac.vercel.app/",
   "github": "https://github.com/007Jamal/receipt-generator",
-  "images": []
+  "images": [
+    "/images/uploads/screenshot-2026-06-18-013206.png",
+    "/images/uploads/screenshot-2026-08-02-154749.png",
+    "/images/uploads/screenshot-2026-08-02-155307.png",
+    "/images/uploads/screenshot-2026-06-18-013453.png",
+    "/images/uploads/screenshot-2026-08-02-155220.png"
+  ]
 }
