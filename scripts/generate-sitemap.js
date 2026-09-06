@@ -6,7 +6,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const SITE_URL = 'https://bhadmus-ibrahim-portfolio.vercel.app'
+const SITE_URL = 'https://bhadmus.vercel.app'
 const root = process.cwd()
 
 function readJsonDir(dir) {
