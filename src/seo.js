@@ -1,4 +1,4 @@
-const SITE_URL = 'https://bhadmus-ibrahim-portfolio.vercel.app'
+const SITE_URL = 'https://bhadmus.vercel.app'
 const DEFAULT_IMAGE = `${SITE_URL}/og-default.png`
 
 function upsertMeta(attr, key, content) {
