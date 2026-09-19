@@ -1,6 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/admin/config.yml", "destination": "/admin/config.yml" },
-    { "source": "/((?!api/|admin/).*)", "destination": "/index.html" }
-  ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": "",
+  "outputDirectory": "."
 }
